@@ -1,4 +1,4 @@
-Calculator buddy v1.0
+CALCULATOR BUDDY v1.0
 
 Purpose : To perform various calculations ranging from topics of basic arithmetic to sciences.
 
