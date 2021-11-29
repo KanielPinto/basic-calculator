@@ -8,8 +8,8 @@ Date: 28/11/21
 #include "physics.h"
 #include "chemistry.h"
 #include "unit.h"
-//#include "basiccalc.c"
-//#include "mathematics.c"
+#include "basiccalc.h"
+#include "mathematics.h"
 
 void main() {
 
@@ -25,10 +25,10 @@ void main() {
     switch (cat_selected)
     {
     case 1:
-        //insert main() of basic arithmetic
+        main_basic();
         break;
     case 2:
-        //insert main() of mathematic
+        main_mathematics();
         break;
     case 3:
         main_physics();
