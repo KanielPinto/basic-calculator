@@ -260,7 +260,7 @@ void wien() {
     }
 }
 
-void main () {
+void main_physics () {
     int form_no, exec_complete;
     int repeat;
     printf("Physics Calculator\n Choose a formula (Use SI unit during all inputs unless specified)\n 1. Newton's first law\n 2. Newton's second law\n 3. Newton's third law\n 4. Einstein's Relativity equation\n 5. Wavelength\n 6. Simple Velocity\n 7. Brewster's Angle\n 8. Work\n 9. Dipole antenna length and wavelength calculator\n 10. Wien's law\n");
@@ -323,7 +323,7 @@ void main () {
         //Ask user if he wants to perform more calculations
         if (repeat == 1)
         {
-                main(); //recall main function to perform calculations again
+                main_physics(); //recall main function to perform calculations again
         }
         else {
                 printf("Thank you for using this calculator. Hope to see you soon!");

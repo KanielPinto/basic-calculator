@@ -298,7 +298,7 @@ void fcc() {
     }
 }
 
-void main () {
+void main_chemistry () {
     int form_no, exec_complete;
     int repeat;
     printf("Chemistry Calculator\n Choose a formula (Use SI unit during all inputs unless specified)\n 1. Osmotic pressure equation\n 2. Molality\n 3. Half Life\n 4. Boyle's law\n 5. Charles Law\n 6. Gay Lussac's law\n 7. Ideal Gas equation\n 8. Density of unit cell\n 9. Edge Length - Radius for simple cubic unit cell \n 10. Edge Length - Radius for body centered unit cell\n 11. Edge Length - Radius for face centered unit cell\n");
@@ -365,7 +365,7 @@ void main () {
         //Ask user if he wants to perform more calculations
         if (repeat == 1)
         {
-                main(); //recall main function to perform calculations again
+                main_chemistry(); //recall main function to perform calculations again
         }
         else {
                 printf("Thank you for using this calculator. Hope to see you soon!");
