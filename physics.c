@@ -266,6 +266,7 @@ void main () {
     printf("Physics Calculator\n Choose a formula (Use SI unit during all inputs unless specified)\n 1. Newton's first law\n 2. Newton's second law\n 3. Newton's third law\n 4. Einstein's Relativity equation\n 5. Wavelength\n 6. Simple Velocity\n 7. Brewster's Angle\n 8. Work\n 9. Dipole antenna length and wavelength calculator\n 10. Wien's law\n");
     scanf("%d", &form_no);
 
+    //execute function according to user input
     switch (form_no)
     {
     case 1:
@@ -313,14 +314,16 @@ void main () {
         break;
     }
     
+    //check if execution completed
     if (exec_complete == 1)
     {    
         printf("\nWould you like to calculate another value?\n");
         scanf("%d", &repeat);
 
+        //Ask user if he wants to perform more calculations
         if (repeat == 1)
         {
-                main();
+                main(); //recall main function to perform calculations again
         }
         else {
                 printf("Thank you for using this calculator. Hope to see you soon!");
