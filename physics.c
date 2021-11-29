@@ -317,7 +317,7 @@ void main () {
     //check if execution completed
     if (exec_complete == 1)
     {    
-        printf("\nWould you like to calculate another value?\n");
+        printf("\nWould you like to calculate another value? (0 = No, 1 = Yes)\n");
         scanf("%d", &repeat);
 
         //Ask user if he wants to perform more calculations
