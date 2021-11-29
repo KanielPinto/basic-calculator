@@ -6,4 +6,4 @@ Authors: Kaniel Pinto and Valeron Toscano
 
 Date: 28/11/21
 
-Run calc_main.c
+Compile and run "calc_main.c" to begin.
