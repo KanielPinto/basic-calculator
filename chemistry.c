@@ -303,6 +303,7 @@ void fcc() {
     }
 }
 
+//function to get user input, process input as directed and ask user if he wants to use the function again
 void main_chemistry () {
     int form_no, exec_complete;
     int repeat;
