@@ -1,3 +1,8 @@
+/*
+Purpose: To solve chemistry numericals faster
+Author: Valeron Toscano
+Date: 28/11/21
+*/
 #include <stdio.h>
 #include <math.h>
 #define R 8.314

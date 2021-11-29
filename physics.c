@@ -1,3 +1,8 @@
+/*
+Purpose: To solve physics numericals faster
+Author: Valeron Toscano
+Date: 28/11/21
+*/
 #include <stdio.h>
 #include <math.h>
 #define SPEED_OF_LIGHT 299792.0
