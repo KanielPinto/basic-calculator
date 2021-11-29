@@ -9,6 +9,8 @@
 #include <math.h>
 #include <float.h>
 
+
+//global variable declaration
 float val[100];
 int i;
 char z;
@@ -22,11 +24,14 @@ void squarert();
 void mean();
 void reset();
 
+
+//main function
 int main()
 {
 
     char op;
 
+    //display options for possible operations and accept user choice 
     printf("\nPress +  to add values\n");
     printf("Press -  to subtract values\n");
     printf("Press *  to multiply values\n");
@@ -37,6 +42,8 @@ int main()
     printf("Press A  to get the mean of given values\n");
     scanf("%c", &op);
 
+
+    //switch case to trigger relevant functions for selected operator
     switch (op)
     {
     case '+':
@@ -81,6 +88,8 @@ int main()
     return 0;
 }
 
+
+//function to perform addition
 void add()
 {   
     float sum = 0;
@@ -104,6 +113,7 @@ void add()
     printf("Answer = %.4f\n\n", sum);
 }
 
+//function to perform subtraction
 void subtract()
 {   
     float diff;
@@ -119,6 +129,7 @@ void subtract()
     printf("Answer = %f\n\n", diff);
 }
 
+//function to perform multiplication
 void multiply()
 {   
     float pro = 0;
@@ -142,6 +153,8 @@ void multiply()
     printf("Answer = %f\n\n", pro);
 }
 
+
+//function to perform division
 void divide()
 {   
     float quotient;
@@ -159,6 +172,7 @@ void divide()
 
 }
 
+//function to obtain modulus
 void modulus()
 {   
     int mod;
@@ -175,6 +189,8 @@ void modulus()
 
 }
 
+
+//function to perform squaring
 void square()
 {   
     float sq;
@@ -188,6 +204,8 @@ void square()
     printf("Answer = %f\n\n", sq);
 }
 
+
+//function to obtain square root
 void squarert()
 {   
     float root;
@@ -201,6 +219,8 @@ void squarert()
     printf("Answer = %f\n\n", root);
 }
 
+
+//function to obtain mean
 void mean()
 {   
     float sum = 0;
@@ -227,6 +247,8 @@ void mean()
     printf("Answer = %.4f\n\n", avg);
 }
 
+
+//function to reset calculator or to exit to menu
 void reset()
 {
     int z;
@@ -235,5 +257,5 @@ void reset()
     scanf("%d", &z);
     
     if (z == 1)
-    main();
+    main();  //recalling main function if another calculation is desired
 }
